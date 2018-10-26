@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  microcatalog:
+    image: microcatalog
+    build:
+      context: .
+      dockerfile: MicroCatalog/Dockerfile
